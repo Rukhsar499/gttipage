@@ -833,3 +833,48 @@ footer {
     font-weight: 500;
     color: #fff;
 }
+.testimonials-home {
+    padding: 1rem 0;
+    position: relative;
+    overflow: hidden;
+}
+.testimonials-home::before {
+    background-color: #003962;
+    position: absolute;
+    width: 50vh;
+    z-index: -1;
+}
+.since1920 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .4;
+    z-index: -1;
+}
+.double {
+    position: absolute;
+    bottom: 0;
+    right: 56vh;
+}
+.pills .nav-link.active, .pills .show>.nav-link {
+    opacity: 1;
+    background-color: #fff0;
+    border-right: 2px solid #2cdd9b;
+    outline: 0;
+}
+.tab-content > .active {
+    display: block;
+}
+.pills-button-img {
+    max-width: 100%;
+    width: 65px;
+    height: 65px;
+}
+.testi1_title {
+    font-weight: 700;
+    font-size: 4.556vh;
+    line-height: 100%;
+    color: #e0980f;
+    margin: 1.481vh 0 3.426vh;
+}

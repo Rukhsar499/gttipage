@@ -946,3 +946,10 @@ footer {
 .video-anc{
   margin: 20px;
 }
+.video-title {
+    color: #0045aa;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}

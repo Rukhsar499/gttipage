@@ -808,7 +808,7 @@ h2{
     opacity: 0;
 }
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 footer::before {
     background: url(../img/footerbg.png) 0 0 / contain no-repeat;
@@ -816,4 +816,20 @@ footer::before {
     content: '';
     height: 100%;
     left: 0;
+}
+footer {
+    padding: 5vh 2vh 3vh;
+    background-color: #003962;
+}
+.vulte-footer-desc {
+   
+    margin-top: 15px;
+}
+.footer-anc_item ul li a {
+    color: #fff;
+    font-weight: 600;
+}
+.footer-info, .footer-info a {
+    font-weight: 500;
+    color: #fff;
 }

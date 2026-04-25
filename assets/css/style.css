@@ -37,7 +37,7 @@ body {
 
 .hero {
   position: relative;
-  padding: 100px 0 0px 20px;
+  padding: 140px 0 0px 20px;
   overflow: hidden;
   min-height: 90vh;
 }
@@ -167,7 +167,7 @@ body {
 
 .obhg {
   position: absolute;
-  top: 20px;
+ top: 30%;
   width: 204px;
   left: -60px;
   animation: rotateCircle 20s linear infinite;
@@ -873,8 +873,73 @@ footer {
 }
 .testi1_title {
     font-weight: 700;
-    font-size: 4.556vh;
+    font-size: 20px;
     line-height: 100%;
     color: #e0980f;
     margin: 1.481vh 0 3.426vh;
+}
+.pills {
+    border-right: 2px solid #eaeaea;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  color: #333;
+  position: relative;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #6c63ff;
+}
+
+/* Underline hover effect */
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #6c63ff;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Dropdown animation */
+.custom-dropdown .dropdown-menu {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: all 0.3s ease;
+  display: block;
+  visibility: hidden;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Show on hover */
+.custom-dropdown:hover .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+/* Dropdown item */
+.dropdown-item {
+  transition: 0.3s;
+}
+
+.dropdown-item:hover {
+  background: #f3f0ff;
+  color: #6c63ff;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
 }
